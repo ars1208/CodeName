@@ -1,27 +1,18 @@
 <template>
   <div>
     <myheader></myheader>
-    <toppage></toppage>
-    <aboutme></aboutme>
-    <myskills></myskills>
-    <contactme></contactme>
+    <topPage></topPage>
   </div>
 </template>
 
 <script>
 import myheader from './components/myheader'
-import toppage from './components/topPage'
-import aboutme from './components/aboutMe'
-import myskills from './components/mySkills'
-import contactme from './components/contactMe'
+import topPage from './components/main'
 
 export default {
   components: {
     myheader,
-    toppage,
-    aboutme,
-    myskills,
-    contactme
+    topPage
   }
 }
 </script>
