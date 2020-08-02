@@ -1,18 +1,20 @@
 <template>
   <header>
     <div class="header-list">
-      <router-link to="/topPage">
-        Top
-      </router-link>
-      <router-link to="/aboutMe">
-        About
-      </router-link>
-      <router-link to="/mySkills">
-        Skills
-      </router-link>
-      <router-link to="/contactMe">
-        Contacts
-      </router-link>
+      <div class="remain-number">
+        赤：
+        青：
+      </div>
+      <div class="sheet-num">
+        ボードシート番号：
+        マスキングシート番号：
+      </div>
+      <div class="reset">
+        リセットボタン
+      </div>
+      <div class="change-role">
+        役割交代ボタン
+      </div>
     </div>
   </header>
 </template>
@@ -21,7 +23,7 @@
 </script>
 
 <style>
-header {
+.header-list {
   font-size: 20px;
   border: solid #CCCCCC;
   border-width: 1px 0;
@@ -29,15 +31,4 @@ header {
   padding: 10px 0;
   text-align: center;
 }
-
-router-link {
-  border-left: solid 1px #CCCCCC;
-  display: inline-block;
-  width: 250px;
-}
-
-router-link:first-child {
-  border-left: none;
-}
-
 </style>
