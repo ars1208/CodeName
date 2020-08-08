@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <p>i</p>
+        <p>word</p>
     </div>
 </template>
 
@@ -9,8 +9,12 @@
 
 <style>
     .card {
-        height: 100px;
-        width: 200px;
-        background-color: blue;
+        height: 130px;
+        width: 220px;
+        background-color: #b5b5ac;
+        font-size: 40px;
+        line-height: 130px;
+        text-align: center;
+        border-radius: 20px;
     }
 </style>

@@ -2,7 +2,15 @@
   <div>
     <div class="top">
       <h1>Code Name</h1>
-      <card></card>
+      <div class="play-area">
+        <div class="play-area-col">
+          <card></card>
+          <card></card>
+          <card></card>
+          <card></card>
+          <card></card>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -15,11 +23,12 @@ export default {
     card
   }
 }
-</script>>
+</script>
 
 <style>
-  .top {
-    background-color: aqua;
-    height: 800px;
-  }
+.top {
+  background-color: aqua;
+  height: 800px;
+}
+
 </style>
