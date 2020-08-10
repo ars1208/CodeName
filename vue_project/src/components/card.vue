@@ -1,6 +1,6 @@
 <template>
-    <div class="card">
-        <p>word</p>
+    <div class="card-content">
+        <a href="#">word</a>
     </div>
 </template>
 
@@ -8,7 +8,7 @@
 </script>
 
 <style>
-    .card {
+    .card-content {
         height: 130px;
         width: 220px;
         background-color: #b5b5ac;
@@ -16,5 +16,11 @@
         line-height: 130px;
         text-align: center;
         border-radius: 20px;
+        cursor: pointer;
+        display: block;
+    }
+
+    a {
+        text-decoration: none;
     }
 </style>
