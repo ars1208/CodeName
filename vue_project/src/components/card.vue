@@ -8,13 +8,21 @@
 export default {
   data () {
     return {
-      isActivePushed: false
+      isActivePushed: false,
+      cardColor: '#009bbf'
     }
   }
 }
 </script>
 
 <style>
+:root {
+  --red-team-color: #f62e36;
+  --blue-team-color: #009bbf;
+  --npc-color: #9c5e31;
+  --spy-color: #000000;
+}
+
 .card-content {
   height: 130px;
   width: 220px;
@@ -24,15 +32,19 @@ export default {
   border-radius: 20px;
   cursor: pointer;
   display: block;
+  margin: 20px;
+  float: left;
 }
 .pushedColor {
   height: 130px;
   width: 220px;
-  background-color: blue;
+  background-color: var(--red-team-color);
   font-size: 40px;
   text-align: center;
   border-radius: 20px;
   cursor: pointer;
   display: block;
+  margin: 20px;
+  float: left;
 }
 </style>

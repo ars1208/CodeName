@@ -63,10 +63,4 @@ export default {
 .play-area-col {
   overflow: hidden;
 }
-
-.card-content {
-  margin: 20px;
-  float: left;
-}
-
 </style>
