@@ -50,16 +50,14 @@ export default {
 .--red-team-color {
   background-color: var(--red-team-color);
 }
-
 .--blue-team-color {
   background-color: var(--blue-team-color);
 }
-
 .--npc-color {
   background-color: var(--npc-color);
 }
-
 .--spy-color {
   background-color: var(--spy-color);
+  color: #ffffff;
 }
 </style>

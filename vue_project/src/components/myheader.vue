@@ -13,7 +13,7 @@
         リセットボタン
       </div>
       <div class="change-role">
-        役割交代ボタン
+        スパイモード
       </div>
     </div>
   </header>
