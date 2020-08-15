@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  data () {
+  data: () => {
     return {
       isActivePushed: false,
       cardColor: '#009bbf'
