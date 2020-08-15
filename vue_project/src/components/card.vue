@@ -27,7 +27,7 @@ export default {
   height: 130px;
   width: 220px;
   background-color: #b5b5ac;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   border-radius: 20px;
   cursor: pointer;
@@ -39,7 +39,7 @@ export default {
   height: 130px;
   width: 220px;
   background-color: var(--red-team-color);
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   border-radius: 20px;
   cursor: pointer;

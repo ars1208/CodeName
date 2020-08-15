@@ -56,6 +56,12 @@ export default {
     }
   }
 }
+
+window.onload = function () {
+  datalist.forEach(data => {
+    document.getElementById(data.card_id).innerHTML = '<p>' + data.word + '</p>'
+  })
+}
 </script>
 
 <style>
