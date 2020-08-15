@@ -8,8 +8,7 @@
 export default {
   data: () => {
     return {
-      isActivePushed: false,
-      cardColor: '#009bbf'
+      isActivePushed: false
     }
   }
 }
