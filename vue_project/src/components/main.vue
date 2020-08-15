@@ -44,10 +44,16 @@
 
 <script>
 import card from './card'
+import datalist from '../assets/data.json'
 
 export default {
   components: {
     card
+  },
+  data: () => {
+    return {
+      datalist: datalist
+    }
   }
 }
 </script>
