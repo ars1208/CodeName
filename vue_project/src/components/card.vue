@@ -46,4 +46,20 @@ export default {
   margin: 20px;
   float: left;
 }
+
+.--red-team-color {
+  background-color: var(--red-team-color);
+}
+
+.--blue-team-color {
+  background-color: var(--blue-team-color);
+}
+
+.--npc-color {
+  background-color: var(--npc-color);
+}
+
+.--spy-color {
+  background-color: var(--spy-color);
+}
 </style>

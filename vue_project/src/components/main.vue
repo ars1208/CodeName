@@ -60,6 +60,9 @@ export default {
 window.onload = function () {
   datalist.forEach(data => {
     document.getElementById(data.card_id).innerHTML = '<p>' + data.word + '</p>'
+    document.getElementById(data.card_id).onclick = function () {
+      this.classList.toggle(data.color)
+    }
   })
 }
 </script>
