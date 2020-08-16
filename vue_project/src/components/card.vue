@@ -1,6 +1,6 @@
 <template>
     <div class="card-content">
-        <p>word</p>
+      <p>word</p>
     </div>
 </template>
 
