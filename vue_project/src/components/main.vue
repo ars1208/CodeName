@@ -65,6 +65,12 @@ window.onload = function () {
     }
   })
 
+  document.getElementById('reset').onclick = function () {
+    datalist.forEach(data => {
+      document.getElementById(data.card_id).classList.remove(data.color)
+    })
+  }
+
   document.getElementById('spy-mode').onclick = function () {
     datalist.forEach(data => {
       document.getElementById(data.card_id).classList.toggle(data.color)

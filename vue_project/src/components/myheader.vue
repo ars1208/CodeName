@@ -9,8 +9,8 @@
         ボードシート番号：
         マスキングシート番号：
       </div>
-      <div id="reset">
-        <input type="button" value="リセット">
+      <div class="reset-button">
+        <input id="reset" type="button" value="リセット">
       </div>
       <div class="change-role">
         <input id="spy-mode" type="button" value="スパイモード">
