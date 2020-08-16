@@ -64,6 +64,12 @@ window.onload = function () {
       this.classList.toggle(data.color)
     }
   })
+
+  document.getElementById('spy-mode').onclick = function () {
+    datalist.forEach(data => {
+      document.getElementById(data.card_id).classList.toggle(data.color)
+    })
+  }
 }
 </script>
 
